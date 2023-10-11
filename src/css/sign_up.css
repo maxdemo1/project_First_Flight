@@ -139,6 +139,7 @@ textarea::-webkit-scrollbar-thumb {
     flex-wrap: nowrap;
     column-gap: 20px;
     align-items: end;
+    margin-bottom: 38px;
 }
 .sign-up__lens {
     width: 180px;
