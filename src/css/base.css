@@ -42,6 +42,146 @@
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-body {
-    font-family: 'DM Sans', sans-serif;
+:root {
+    --color-primary-bg: #121212;
+    --color-button-secondary: #1D1D1D;
+    --color-block-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+    --color-secondary-title: #BEA69E;
+    --color-primary-text: #fff;
+    --color-secondary-text: rgba(255, 255, 255, 0.5);
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    font-family: DM Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: var(--color-primary-text);
+    background-color: var(--color-primary-bg);
+}
+
+.container {
+    min-width: 300px;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/**
+ |============================
+ | typography
+ |============================
+
+.title-h1 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -2.56px;
+}
+
+.title-h1 span {
+    color: var(--color-brown);
+    font-style: italic;
+}
+
+.title-h2 {
+    font-size: 59px;
+    line-height: 1.08;
+    letter-spacing: -1.18px;
+    text-transform: uppercase;
+}
+
+.title-h2 span {
+    color: var(--color-brown);
+}
+
+.title-h3 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -1.92px;
+}
+
+.title-h3 span {
+    color: var(--color-brown);
+}
+
+.title-h4 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+}
+
+.text-gray {
+    color: var(--text-color-gray);
+}
+
+.subtext {
+    font-size: 14px;
+    line-height: 1.28;
+}
+
+.list {
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.list__items {
+    font-size: 14px;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.list__items:hover {
+    color: var(--color-brown);
+    font-weight: 700;
+}
+*/
+/**
+ |============================
+ | buttons
+ |============================
+
+.btn-signup {
+    border-radius: 12px;
+    background: var(--color-white);
+    padding: 16px 84px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.btn-signup:hover {
+    background: var(--color-gray);
+    color: var(--color-brown);
+}
+*/

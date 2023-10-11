@@ -1,0 +1,142 @@
+/**
+ |============================
+ | base
+ |============================
+*/
+.title-h3 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -4%;
+    text-transform: capitalize;
+}
+.title-h3 span {
+    color: var(--color-secondary-title);
+}
+.text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -2%;
+}
+.subtext {
+    color: var(--color-secondary-text);
+    font-size: 14px;
+    line-height: 1.28;
+}
+.input-field{
+    border-radius: 12px;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 20px 18px;
+    background: transparent;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--color-primary-text);
+    width: 100%;
+    resize: none;
+}
+.input-field::placeholder-shown{
+    opacity: .7;
+} 
+.input-field:focus{
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+/**
+ |============================
+ | button
+ |============================
+*/
+.btn-signup{
+    border-radius: 12px;
+    background: var(--color-primary-text);
+    padding: 16px 84px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    color: var(--color-primary-bg);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+.btn-signup:hover{
+    background: var(--color-button-secondary);
+    color: var(--color-secondary-title);
+}
+/**
+ |============================
+ | scrollbar
+ |============================
+*/
+textarea::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  textarea::-webkit-scrollbar-track {
+    background-color: var(--color-primary-text);
+    border-radius: 0 30px 30px 0;
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+    border-radius: 0 30px 30px 0;
+    background: var(--color-secondary-title);
+}
+/**
+ |============================
+ | block style
+ |============================
+*/
+.sign-up{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.sign-up__title{
+    margin-bottom: 20px;
+}
+.sign-up__text{
+    margin-bottom: 40px;
+}
+
+.sign-up__block-form{
+    max-width: 480px;
+}
+.sign-up__block-img{
+    max-width: 560px;
+    min-width: 540px;
+    display: none;
+}
+
+.sign-up__input-container{
+    width: 100%;    
+}
+.sign-up__input-container:not(:last-child){
+    margin-bottom: 14px;
+}
+.sign-up__input-container textarea{
+    height: 120px;
+    margin-bottom: 40px;
+}
+
+.sign-up__submit{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sign-up__policy a{
+    text-decoration: underline;
+}
+
+
+/**
+ |============================
+ | media
+ |============================
+*/
+@media screen and (min-width: 1280px) {
+    .sign-up__block-img{
+        display: block;
+    }
+  }
