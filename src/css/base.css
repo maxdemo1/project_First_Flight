@@ -63,13 +63,15 @@ body {
 
 .container {
     min-width: 320px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /**
  |============================
  | typography
  |============================
-*/
+
 .title-h1 {
     font-size: 64px;
     font-weight: 500;
@@ -144,12 +146,12 @@ body {
     color: var(--color-brown);
     font-weight: 700;
 }
-
+*/
 /**
  |============================
- | battons
+ | buttons
  |============================
-*/
+
 .btn-signup {
     border-radius: 12px;
     background: var(--color-white);
@@ -169,3 +171,4 @@ body {
     background: var(--color-gray);
     color: var(--color-brown);
 }
+*/
