@@ -73,13 +73,25 @@ body {
 }
 
 .container {
-    min-width: 300px;
+    min-width: 280px;
     max-width: 1240px;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 0 20px;
 }
-
+@media screen and (min-width: 768px) {
+    .container{
+        margin: 0 32px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .container{
+        margin: 0 100px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container{
+        margin: 0 auto;
+    }
+}
 /**
  |============================
  | typography
