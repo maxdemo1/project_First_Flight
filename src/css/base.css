@@ -49,6 +49,9 @@
     --color-secondary-title: #BEA69E;
     --color-primary-text: #fff;
     --color-secondary-text: rgba(255, 255, 255, 0.5);
+    --our-courses-item-number: rgba(255, 255, 255, 0.40);
+    --our-courses-border-color: rgba(255, 255, 255, 0.20);
+    --our-courses-right-arrow-color: #777777;
 }
 
 body {
