@@ -1,0 +1,154 @@
+.reviews .container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 80px auto;
+}
+.reviews-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+
+.reviews-item {
+  width: 335px;
+  position: relative;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.reviews-item:last-child {
+  display: none;
+}
+
+.reviews-item-person {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.reviews-item-person-information {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reviews-item-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.reviews-item-position {
+  color: var(--color-secondary-text);
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+.reviews-item-text {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.stars {
+  position: absolute;
+  top: 80px;
+  left: 86px;
+}
+
+.reviews-list-stars {
+  display: flex;
+}
+.reviews-item-stars {
+  fill: var(--color-secondary-title);
+}
+.reviews-item-stars:last-child {
+  fill: #414141;
+}
+
+@media screen and (max-width: 374px) {
+  .reviews-item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .reviews .container {
+    max-width: 768px;
+    padding: 0 32px;
+    margin: 100px auto;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    line-height: 1.12;
+    margin-bottom: 50px;
+  }
+
+  .reviews-item {
+    width: 640px;
+  }
+  .reviews-item-person {
+    margin-bottom: 20px;
+  }
+
+  .reviews-item-name {
+    line-height: 1.4;
+  }
+  .reviews-item-position {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+  .reviews-item-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .stars {
+    position: absolute;
+    top: 20px;
+    left: 504px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews .container {
+    max-width: 1280px;
+    padding: 0 100px;
+    margin: 150px auto;
+  }
+  .reviews-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .reviews-item {
+    width: 530px;
+  }
+  .reviews-item:last-child {
+    display: block;
+  }
+
+  .reviews-item-person {
+    margin-bottom: 20px;
+  }
+
+  .stars {
+    left: 394px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reviews .container {
+    max-width: 1440px;
+    padding: 0 100px;
+  }
+
+  .reviews-item {
+    width: 610px;
+    padding: 20px;
+  }
+
+  .stars {
+    left: 474px;
+  }
+}
