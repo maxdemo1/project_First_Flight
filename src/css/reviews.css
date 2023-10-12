@@ -1,6 +1,7 @@
 .reviews .container {
   max-width: 375px;
   padding: 0 20px;
+  margin: 80px auto;
 }
 .reviews-title {
   font-size: 28px;
@@ -10,9 +11,6 @@
   margin-bottom: 40px;
 }
 
-.reviews-list {
-  margin: 0 auto 80px;
-}
 .reviews-item {
   width: 335px;
   position: relative;
@@ -41,7 +39,7 @@
   line-height: 1.2;
 }
 .reviews-item-position {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-secondary-text);
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: -0.02em;
@@ -77,9 +75,7 @@
   .reviews .container {
     max-width: 768px;
     padding: 0 32px;
-  }
-  .reviews-list {
-    margin: 0 auto 100px;
+    margin: 100px auto;
   }
 
   .reviews-title {
@@ -118,11 +114,11 @@
   .reviews .container {
     max-width: 1280px;
     padding: 0 100px;
+    margin: 150px auto;
   }
   .reviews-list {
     display: flex;
     gap: 20px;
-    margin: 0 auto 150px;
   }
 
   .reviews-item {
