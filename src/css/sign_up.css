@@ -196,6 +196,11 @@ textarea::-webkit-scrollbar-thumb {
  |============================
 */
 @media screen and (min-width: 768px) {
+    .sign-up {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .title-h3 {
         font-size: 48px;
         line-height: 1.12;
@@ -219,6 +224,11 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 1280px) {
+    .sign-up {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
     .sign-up__block-img {
         display: flex;
     }
