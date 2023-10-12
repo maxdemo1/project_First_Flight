@@ -125,9 +125,12 @@
 }
 
 @media screen and (min-width: 768px) {
+    .our-courses {
+        margin: 100px auto;
+    }
+
     .our-courses .container {
         max-width: 768px;
-        margin: 100px auto;
         padding: 0 32px;
     }
 
@@ -183,9 +186,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .our-courses {
+        margin: 150px auto;
+    }
+
     .our-courses .container {
         max-width: 1280px;
-        margin: 150px auto;
         padding: 0 100px;
     }
 
