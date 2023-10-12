@@ -1,0 +1,147 @@
+.abaut_us-section {
+    display: flex;
+    max-width: 375px;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #121212;
+    margin: 0 auto;
+    
+}
+
+.conteiner {}
+
+.abaut_us-conteiner {
+
+}
+
+.abaut-title {
+    margin-bottom: 40px;
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -1.12px;
+        margin-left: 20px;
+        margin-top: 100px;
+}
+
+.abaut-title-spn {
+    color: #BEA69E;
+        font-family: DM Sans;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -1.12px;
+}
+
+.abaut-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 20px;
+    padding: 0 20px;
+    margin-bottom: 80px;
+}
+
+.abaut-item {
+    
+}
+
+.abaut-text {
+    color: var(--white, #FFF);
+        font-family: DM Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+        
+}
+.abaut_us_picture {
+    margin: 0 auto;
+}
+
+
+/* MEDIA */
+/* TAB */
+@media screen and (min-width: 768px) {
+.abaut_us-section {
+    max-width: 768px;
+}
+.abaut-title {
+    margin-left: 32px;
+}
+.about_us_conteiner {
+    margin-left: 32px;
+}
+.abaut-list {
+    gap: 40px;
+    padding: 0;
+    margin-bottom: 100px;
+}
+.abaut-text {
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.40px;
+}
+.abaut-item {
+    max-width: 280px;
+}
+ .abaut-title {
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -1.92px;
+ }
+ .abaut-title-spn {
+    font-family: DM Sans;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -1.92px;
+
+ }
+ .abaut-title {
+    margin-top: 100px;
+ }
+
+}
+/* Display 1280 */
+@media screen and (min-width: 1280px) {
+    .abaut_us-section {
+        max-width: 1280px;
+        display: inline-block;
+    }
+    .about_us_conteiner {
+        display: flex;
+        min-width: 1280px;
+    }
+.abaut-title {
+    margin-bottom: 50px;
+    
+}
+.abaut_us_picture {
+    margin: 0;
+    margin-right: 40px;
+}
+.abaut-list {
+    gap: 20px;}
+}
+@media screen and (min-width: 1440px) {
+.abaut_us-section {
+        max-width: 1440px;
+    }
+.abaut_us_picture {
+    margin-right: 50px;
+}
+.abaut-list {
+    gap: 40px;
+}
+
+
+}
