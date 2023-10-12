@@ -1,6 +1,9 @@
+.our-courses {
+    margin: 80px auto;
+}
+
 .our-courses .container {
     max-width: 375px;
-    margin: 80px auto;
     padding: 0 20px;
 }
 
