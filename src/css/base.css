@@ -54,6 +54,19 @@
     --our-courses-right-arrow-color: #777777;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 body {
     font-family: DM Sans, sans-serif;
     font-size: 16px;
@@ -66,7 +79,25 @@ body {
 .container {
     min-width: 320px;
     max-width: 1440px;
-    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        margin: 0 auto;
+    }
 }
 
 /**
