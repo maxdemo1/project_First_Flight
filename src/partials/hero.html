@@ -11,71 +11,84 @@
       unique ideas.
     </p>
     <div class="hero-picture">
-      <picture>
-        <!-- mobile -->
-        <source
-          media="(max-width: 767px)"
-          srcset="
-            ../img/images/hero/students_mobile/happy_studend1_mobile.webp    1x,
-            ../img/images/hero/students_mobile/happy_studend1_2x_mobile.webp 2x
-          "
-        />
-        <img
-          class=""
-          src="../img/images/hero/students_mobile/happy_studend1_mobile.webp"
-          alt=""
-          width="44"
-          height="44"
-        />
+      <div class="hero-img">
+        <div class="hero-image">
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../img/images/hero/students_mobile/happy_studend1_mobile.webp,
+                1x,
+                ../img/images/hero/students_mobile/happy_studend1_2x_mobile.webp 2x
+              "
+            />
+            <img
+              class=""
+              src="../img/images/hero/students_mobile/happy_studend1_mobile.webp"
+              width="44"
+              height="44"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../img/images/hero/students_mobile/happy_studend2_mobile.webp,
+                1x,
+                ../img/images/hero/students_mobile/happy_studend2_2x_mobile.webp 2x
+              "
+            />
+            <img
+              class=""
+              src="../img/images/hero/students_mobile/happy_studend2_mobile.webp"
+              width="44"
+              height="44"
+            />
+          </picture>
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../img/images/hero/students_mobile/happy_studend3_mobile.webp    1x,
+                ../img/images/hero/students_mobile/happy_studend3_2x_mobile.webp 2x
+              "
+            />
+            <img
+              class=""
+              src="../img/images/hero/students_mobile/happy_studend3_mobile.webp"
+              width="44"
+              height="44"
+            />
+          </picture>
+          <div class="svg-container">
+            <svg class="hero-star" width="20" height="20">
+              <use href="./img/icons/sprite.svg#star"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="arrow">
+          <p class="hero-subtitle">Our happy students</p>
 
-        <source
-          media="(max-width: 767px)"
-          srcset="
-            ../img/images/hero/students_mobile/happy_studend2_mobile.webp,
-            ../img/images/hero/students_mobile/happy_studend2_2x_mobile.webp
-          "
-        />
-        <img
-          class=""
-          src="../img/images/hero/students_mobile/happy_studend2_mobile.webp"
-          alt=""
-          width="44"
-          height="44"
-        />
-        <source
-          media="(max-width: 767px)"
-          srcset="
-            ../img/images/hero/students_mobile/happy_studend3_mobile.webp    1x,
-            ../img/images/hero/students_mobile/happy_studend3_2x_mobile.webp 2x
-          "
-        />
-        <img
-          class=""
-          src="../img/images/hero/students_mobile/happy_studend3_mobile.webp"
-          alt=""
-          width="44"
-          height="44"
-        />
-        <source
-          media="(max-width: 767px)"
-          srcset="
-            ..//img/images/hero/photographer_mobile/photographer_mobile.webp     1x,
-            ../img/images/hero/photographer_desktop/photographer_2x_desktop.webp 2x
-          "
-        />
-        <img
-          class="photographer-pic"
-          src="../img/images/hero/photographer_mobile/photographer_mobile.webp"
-          alt=""
-          width="44"
-          height="44"
-        />
-      </picture>
-      <p>Our happy students</p>
-      <svg class="hero-arrow" width="18" height="8">
-        <use href="../img/icons/sprite.svg#arrow-right"></use>
-      </svg>
-      <picture></picture>
+          <svg class="hero-arrow" width="20" height="20">
+            <use href="./img/icons/sprite.svg#arrow-right"></use>
+          </svg>
+        </div>
+      </div>
     </div>
+    <picture>
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ../img/images/hero/photographer_mobile/photographer_mobile.webp      1x,
+          ../img/images/hero/photographer_desktop/photographer_2x_desktop.webp 2x
+        "
+      />
+      <img
+        class="photographer-pic"
+        src="../img/images/hero/photographer_mobile/photographer_mobile.webp"
+        width="259"
+        height="314"
+      />
+    </picture>
   </div>
 </section>
