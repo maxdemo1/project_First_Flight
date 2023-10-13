@@ -98,8 +98,8 @@ textarea::-webkit-scrollbar-thumb {
  |============================
 */
 .sign-up {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -170,9 +170,24 @@ textarea::-webkit-scrollbar-thumb {
     width: 340px;
     height: 540px;
     border-radius: 1000px;
-    background: var(--color-button-secondary) url(/img/images/sign_up/desktop_1440/camera_sign_up_1x_desktop_1440.webp) no-repeat center 60%;
-    background-size: inherit;
+    background: var(--color-button-secondary) url(/img/images/sign_up/desktop_1440/camera_sign_up_1x_desktop_1440.webp) no-repeat center 60% / 70%;
     padding: 139px 48px 88px;
+}
+
+/**
+ |============================
+ | retina
+ |============================
+*/
+@media (min-resolution: 192dpi) {
+    .sign-up__lens {
+        background: var(--color-secondary-title) url(../img/images/sign_up/desktop_1440/lens_2x_desktop_1440.webp) no-repeat -25px 70% / 100%;
+
+    }
+
+    .sign-up__camera {
+        background: var(--color-button-secondary) url(../img/images/sign_up/desktop_1440/camera_sign_up_2x_desktop_1440.webp) no-repeat center 60% / 70%;
+    }
 }
 
 /**
@@ -181,6 +196,11 @@ textarea::-webkit-scrollbar-thumb {
  |============================
 */
 @media screen and (min-width: 768px) {
+    .sign-up {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .title-h3 {
         font-size: 48px;
         line-height: 1.12;
@@ -204,6 +224,11 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 1280px) {
+    .sign-up {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
     .sign-up__block-img {
         display: flex;
     }
