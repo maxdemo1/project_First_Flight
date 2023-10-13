@@ -8,6 +8,7 @@
   border-radius: 30px;
   background: #1d1d1d;
 }
+
 .hero-title {
   padding: 40px 20px 20px 20px;
   text-align: left;
@@ -17,6 +18,7 @@
   line-height: 1.1;
   letter-spacing: -0.04em;
 }
+
 .logo-accent {
   color: #bea69e;
   font-family: DM Sans;
@@ -26,6 +28,7 @@
   line-height: 1.1;
   letter-spacing: -0.04em;
 }
+
 .hero-text {
   width: 295px;
   font-size: 14px;
@@ -34,34 +37,51 @@
   letter-spacing: -0.28px;
   padding: 0px 20px 40px 20px;
 }
+
 .hero-picture {
   display: flex;
   flex-direction: column;
 }
+
 .hero-arrow {
   fill: #fff;
 }
-.photographer-pic {
-}
+
+.photographer-pic {}
+
 .hero-img {
   display: flex;
   flex-direction: column;
 }
+
 .arrow {
   display: flex;
   width: 89px;
   height: 36px;
   align-items: center;
 }
+
 .hero-image {
   display: flex;
   padding-bottom: 8px;
 }
+
+.svg-container {
+  padding: 12px;
+  background-color: #bea69e;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
 .hero-star {
   border-radius: 100px;
   background: #bea69e;
+  fill: #bea69e;
+  stroke: #121212;
   flex-shrink: 0;
 }
+
 .hero-subtitle {
   font-size: 14px;
 

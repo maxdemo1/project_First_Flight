@@ -14,13 +14,13 @@
       <div class="hero-img">
         <div class="hero-image">
           <picture>
-            <!-- mobile -->
             <source
+              media="(max-width: 767px)"
               srcset="
-                ./img/images/hero/students_mobile/happy_studend1_mobile         1x,
-                ./img/images/hero/students_mobile/happy_studend1_2x_mobile.webp 2x
+                ../img/images/hero/students_mobile/happy_studend1_mobile.webp,
+                1x,
+                ../img/images/hero/students_mobile/happy_studend1_2x_mobile.webp 2x
               "
-              media="(max-width:767px)"
             />
             <img
               class=""
@@ -60,13 +60,16 @@
               height="44"
             />
           </picture>
-          <svg class="hero-star" width="20" height="20">
-            <use href="./img/icons/sprite.svg#star"></use>
-          </svg>
+          <div class="svg-container">
+            <svg class="hero-star" width="20" height="20">
+              <use href="./img/icons/sprite.svg#star"></use>
+            </svg>
+          </div>
         </div>
         <div class="arrow">
           <p class="hero-subtitle">Our happy students</p>
-          <svg class="hero-arrow" width="18" height="8">
+
+          <svg class="hero-arrow" width="20" height="20">
             <use href="./img/icons/sprite.svg#arrow-right"></use>
           </svg>
         </div>
