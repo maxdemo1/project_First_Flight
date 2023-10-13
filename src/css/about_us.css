@@ -5,7 +5,8 @@
     align-items: center;
     background-color: #121212;
     margin: 0 auto;
-
+    margin-bottom: 80px;
+margin-top: 100px;
 }
 
 
@@ -19,7 +20,6 @@
     line-height: 32px;
     letter-spacing: -1.12px;
     margin-left: 20px;
-    margin-top: 100px;
 }
 
 .abaut-title-spn {
@@ -37,7 +37,6 @@
     /* margin-top: 40px; */
     gap: 20px;
     padding: 0 20px;
-    margin-bottom: 80px;
 }
 
 
@@ -66,6 +65,7 @@
 @media screen and (min-width: 768px) {
     .abaut_us-section {
         max-width: 768px;
+        margin-bottom: 100px;
     }
 
     .abaut-title {
@@ -79,7 +79,7 @@
     .abaut-list {
         gap: 40px;
         padding: 0;
-        margin-bottom: 100px;
+       
     }
 
     .abaut-text {
@@ -114,7 +114,7 @@
     }
 
     .abaut-title {
-        margin-top: 100px;
+        
         margin-left: 32px;
     }
 
@@ -131,13 +131,14 @@
     .abaut_us-section {
         max-width: 1280px;
         display: inline-block;
+        margin-bottom: 150px;
     }
 
     .about_us_conteiner {
         display: flex;
         min-width: 1280px;
         margin-left: 100px;
-        margin-bottom: 100px;
+        
     }
 
     .abaut_us_picture {
