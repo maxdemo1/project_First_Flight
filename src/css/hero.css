@@ -1,0 +1,16 @@
+.hero-container {
+  width: 335px;
+  border-radius: 30px;
+  background: #1d1d1d;
+}
+.hero-title {
+  padding: 40px 20px 20px 20px;
+  text-align: left;
+  width: 295px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+.hero-text {
+}
