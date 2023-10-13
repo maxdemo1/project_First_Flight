@@ -27,6 +27,7 @@
   letter-spacing: -1.6px;
 }
 .hero-text {
+<<<<<<< Updated upstream
   width: 295px;
   font-size: 14px;
   font-weight: 400;
@@ -41,4 +42,6 @@
   fill: #fff;
 }
 .photographer-pic {
+=======
+>>>>>>> Stashed changes
 }
