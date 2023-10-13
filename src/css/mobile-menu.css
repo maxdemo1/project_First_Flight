@@ -1,0 +1,55 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    background-color: rgba(18, 18, 18, 0.4);
+    display: flex;
+}
+
+.modal {
+    position: relative;
+    width: 218px;
+    height: 100%;
+    background-color: #BEA69E;
+    top:0;
+    right: 0;
+}
+
+.modal-close-button {
+   
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+
+.modal-close-icon {
+    stroke: #121212;
+}
+
+.modal-list {
+    padding: 180px 101px 133px 20px;
+}
+
+.modal-link {
+    color: #121212;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.modal-link:hover,
+.modal-link:focus {
+    color: #FFFFFF;
+}
+
+.modal-list-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.link-actual {
+    font-weight: 800;
+}
