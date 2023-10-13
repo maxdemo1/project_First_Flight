@@ -5,6 +5,7 @@
 .our-courses .container {
     max-width: 375px;
     padding: 0 20px;
+    margin: 0 auto;
 }
 
 .our-courses-title-and-introductory-text {
