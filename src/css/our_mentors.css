@@ -45,7 +45,7 @@ letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1156.98px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
     .container-mentors {
         max-width: 768px;
         padding: 0 32px;
@@ -70,7 +70,7 @@ letter-spacing: 0.04em;
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
     .container-mentors {
         max-width: 1440px;
         padding: 0 100px;
@@ -80,6 +80,7 @@ letter-spacing: 0.04em;
         align-items: center;
     justify-content: center;
     gap: 100px;
+    max-width: 1034px;
     flex-direction: row;
     }
 .mentors-heading {
