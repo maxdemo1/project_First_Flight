@@ -98,8 +98,12 @@ textarea::-webkit-scrollbar-thumb {
  |============================
 */
 .sign-up {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 80px auto;
+}
+
+.test-container {
+    max-width: 335px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -197,8 +201,11 @@ textarea::-webkit-scrollbar-thumb {
 */
 @media screen and (min-width: 768px) {
     .sign-up {
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin: 100px auto;
+    }
+
+    .test-container {
+        max-width: 768px;
     }
 
     .title-h3 {
@@ -225,8 +232,11 @@ textarea::-webkit-scrollbar-thumb {
 
 @media screen and (min-width: 1280px) {
     .sign-up {
-        margin-top: 75px;
-        margin-bottom: 75px;
+        margin: 150px auto;
+    }
+
+    .test-container {
+        max-width: 1280px;
     }
 
     .sign-up__block-img {
@@ -237,6 +247,10 @@ textarea::-webkit-scrollbar-thumb {
 @media screen and (min-width: 1440px) {
     .sign-up__lens {
         width: 190px;
+    }
+
+    .test-container {
+        max-width: 1440px;
     }
 
     .sign-up__camera {
