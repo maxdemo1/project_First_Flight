@@ -6,7 +6,7 @@
 }
 
 .modal {
-    position: relative;
+    position: fixed;
     width: 218px;
     height: 100%;
     background-color: #BEA69E;
