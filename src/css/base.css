@@ -1,103 +1,104 @@
 /* dm-sans-regular - latin */
 @font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/dm-sans-v14-latin-regular.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dm-sans-v14-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* dm-sans-italic - latin */
 @font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'DM Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: url('../fonts/dm-sans-v14-latin-italic.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/dm-sans-v14-latin-italic.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* dm-sans-500 - latin */
 @font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/dm-sans-v14-latin-500.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/dm-sans-v14-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* dm-sans-700 - latin */
 @font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/dm-sans-v14-latin-700.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/dm-sans-v14-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 :root {
-    --color-primary-bg: #121212;
-    --color-button-secondary: #1D1D1D;
-    --color-block-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
-    --color-secondary-title: #BEA69E;
-    --color-primary-text: #fff;
-    --color-secondary-text: rgba(255, 255, 255, 0.5);
-    --our-courses-item-number: rgba(255, 255, 255, 0.40);
-    --our-courses-border-color: rgba(255, 255, 255, 0.20);
-    --our-courses-right-arrow-color: #777777;
+  --color-primary-bg: #121212;
+  --color-button-secondary: #1d1d1d;
+  --color-block-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  --color-secondary-title: #bea69e;
+  --color-primary-text: #fff;
+  --color-secondary-text: rgba(255, 255, 255, 0.5);
+  --our-courses-item-number: rgba(255, 255, 255, 0.4);
+  --our-courses-border-color: rgba(255, 255, 255, 0.2);
+  --our-courses-right-arrow-color: #777777;
+  --reviews-star-color: #414141;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 body {
-    font-family: DM Sans, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.25;
-    color: var(--color-primary-text);
-    background-color: var(--color-primary-bg);
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--color-primary-text);
+  background-color: var(--color-primary-bg);
 }
 
 .container {
-    min-width: 320px;
-    max-width: 1440px;
-    padding: 0 20px;
+  min-width: 320px;
+  max-width: 1440px;
+  padding: 0 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        padding: 0 32px;
-    }
+  .container {
+    padding: 0 32px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        padding: 0 100px;
-    }
+  .container {
+    padding: 0 100px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
-        margin: 0 auto;
-    }
+  .container {
+    margin: 0 auto;
+  }
 }
 
 /**

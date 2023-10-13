@@ -16,7 +16,7 @@
   position: relative;
   padding: 20px;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--our-courses-border-color);
 }
 .reviews-item:last-child {
   display: none;
@@ -63,7 +63,7 @@
   fill: var(--color-secondary-title);
 }
 .reviews-item-stars:last-child {
-  fill: #414141;
+  fill: var(--reviews-star-color);
 }
 
 @media screen and (max-width: 374px) {
