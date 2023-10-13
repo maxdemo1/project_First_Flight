@@ -1,7 +1,7 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-
+  width: 100%;
   max-width: 335px;
   padding-left: 20px;
   padding-right: 20px;
@@ -36,9 +36,35 @@
 }
 .hero-picture {
   display: flex;
+  flex-direction: column;
 }
 .hero-arrow {
   fill: #fff;
 }
 .photographer-pic {
+}
+.hero-img {
+  display: flex;
+  flex-direction: column;
+}
+.arrow {
+  display: flex;
+  width: 89px;
+  height: 36px;
+  align-items: center;
+}
+.hero-image {
+  display: flex;
+  padding-bottom: 8px;
+}
+.hero-star {
+  border-radius: 100px;
+  background: #bea69e;
+  flex-shrink: 0;
+}
+.hero-subtitle {
+  font-size: 14px;
+
+  line-height: 1.28em;
+  letter-spacing: -0.56px;
 }
