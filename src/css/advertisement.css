@@ -1,0 +1,56 @@
+/**
+ |============================
+ | base
+ |============================
+*/
+.title-h2 {
+    font-size: 59px;
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.title-h2 span {
+    color: var(--color-secondary-title);
+}
+/**
+ |============================
+ | block style
+ |============================
+*/
+.notice {
+    width: 117%;
+    text-align: center;
+    margin: 150px 0 150px -17%;
+    overflow: hidden;
+    font-size: 59px;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.notice__inner {
+    display: flex;
+}
+
+.notice__line {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0 15px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: noticeLine;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes noticeLine {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
