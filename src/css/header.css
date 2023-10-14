@@ -175,8 +175,7 @@
 
 @media screen and (min-width: 1280px) {
   .header {
-    min-width: 1280px;
-    max-width: 1440px;
+    max-width: 1280px;
     padding: 20px 100px 80px;
   }
 
@@ -185,8 +184,7 @@
   }
 
   .header-mobile-wrapper {
-    max-width: 982px;
-    min-width: 822px;
+    max-width: 822px;
     width: 100%;
     padding: 21px 50px;
   }
@@ -208,5 +206,25 @@
 @media screen and (max-width: 1279.98px) {
   .header-nav {
     display: none;
+  }
+}
+
+/* desktop 1440px */
+
+@media screen and (min-width: 1440px) {
+  .header {
+    max-width: 1440px;
+  }
+
+  .header-wrapper {
+    max-width: 1240px;
+  }
+
+  .header-mobile-wrapper {
+    max-width: 982px;
+  }
+
+  .header-nav-item {
+    gap: 40px;
   }
 }
