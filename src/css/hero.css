@@ -5,7 +5,7 @@
   min-width: 320px;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .hero-container {
@@ -43,7 +43,7 @@
 @media screen and (min-width: 768px) {
   .hero-section {
     max-width: 768px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .hero-container {
