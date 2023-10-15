@@ -1,6 +1,7 @@
 .abaut_us-section {
     display: flex;
     max-width: 375px;
+    min-width: 320px;
     flex-wrap: wrap;
     align-items: center;
     background-color: #121212;
@@ -54,6 +55,14 @@
 
 /* MEDIA */
 /* TAB */
+@media screen and (max-width: 374px) {
+
+    .abaut_us_picture {
+        width: 295px;
+        height: 183px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .abaut_us-section {
         max-width: 768px;
@@ -143,6 +152,10 @@
     .abaut-item:first-child {
         max-width: 268px;
     }
+
+    .abaut-item:last-child {
+        max-width: 264px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -163,5 +176,19 @@
         height: 240px;
     }
 
+    .abaut-item:first-child {
+        max-width: 314px;
+    }
 
+    .abaut-item:last-child {
+        max-width: 276px;
+    }
+
+    .abaut-list {
+        gap: 40px;
+    }
+
+    .about_us_conteiner {
+        align-items: center;
+    }
 }
