@@ -306,31 +306,6 @@ placeholder {
 
 /**
  |============================
- | button
- |============================
-*/
-.btn-signup {
-  border-radius: 12px;
-  background: var(--color-primary-text);
-  padding: 16px 84px;
-  text-align: center;
-  border: 0;
-  outline: 0;
-  color: var(--color-primary-bg);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.55;
-  text-transform: uppercase;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-signup:hover {
-  background: var(--color-button-secondary);
-  color: var(--color-secondary-title);
-}
-
-/**
- |============================
  | block style
  |============================
 */
