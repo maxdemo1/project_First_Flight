@@ -41,7 +41,6 @@
 }
 
 .modal-close-button {
-
     background-color: transparent;
     position: absolute;
     top: 20px;
@@ -65,8 +64,9 @@
 }
 
 .modal-close-icon {
-    stroke: #121212;
+  stroke: #121212;
 }
+
 
 @media screen and (min-width: 374px) and (max-width: 767px) {
     .modal-close-icon {
@@ -99,10 +99,10 @@
     }
 }
 .modal-link {
-    color: #121212;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+  color: #121212;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .modal-link:hover,

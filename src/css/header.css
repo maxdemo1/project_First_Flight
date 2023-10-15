@@ -14,6 +14,7 @@
   max-width: 335px;
   width: 100%;
   padding: 9px 20px;
+  background-color: var(--color-primary-bg);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
@@ -21,9 +22,11 @@
   align-items: center;
 }
 
-.header-logo {
-  width: 127px;
-  height: 20px;
+.header-logo-mobile {
+  fill: var(--color-primary-text);
+}
+
+.header-logo-tablet {
   fill: var(--color-primary-text);
 }
 
@@ -138,6 +141,10 @@
   .header-link {
     display: none;
   }
+
+  .header-logo-tablet {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -155,9 +162,8 @@
     padding: 16px 20px;
   }
 
-  .header-logo {
-    width: 123px;
-    height: 16px;
+  .header-logo-mobile {
+    display: none;
   }
 
   .button-header {
