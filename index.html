@@ -13,8 +13,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project_First_Flight/assets/index-b7bf57e4.js"></script>
-    <link rel="stylesheet" href="/project_First_Flight/assets/index-1b72d54f.css">
+    <script type="module" crossorigin src="/project_First_Flight/assets/index-5e3a00ea.js"></script>
+    <link rel="stylesheet" href="/project_First_Flight/assets/index-03a740e0.css">
   </head>
 
   <body>
@@ -22,18 +22,15 @@
       <header class="header container">
   <div class="header-wrapper">
     <div class="header-mobile-wrapper">
-      <!-- modile logo -->
-      <svg class="header-logo-mobile" width="127" height="20">
-        <use href="/project_First_Flight/assets/sprite-4a1e17f2.svg#logo"></use>
-      </svg>
-      <!-- tablet logo -->
+      <a class="link-logo" href="./index.html">
+        <svg class="header-logo-mobile">
+          <use href="/project_First_Flight/assets/sprite-4a1e17f2.svg#logo-tablet-desktop"></use>
+        </svg>
+      </a>
 
-      <svg class="header-logo-tablet" width="123" height="16">
-        <use href="/project_First_Flight/assets/sprite-4a1e17f2.svg#logo-tablet-desktop"></use>
-      </svg>
       <ul class="mobile-header-menu">
         <li class="mobile-header-list">
-          <a class="header-mobile-link" href="">
+          <a class="header-mobile-link" href="#sign_up">
             <svg class="header-link-icon" width="16" height="16">
               <use href="/project_First_Flight/assets/sprite-4a1e17f2.svg#camera"></use>
             </svg>
@@ -52,25 +49,25 @@
       <nav class="header-nav">
         <ul class="header-nav-item">
           <li class="header-nav-list">
-            <a href="" class="header-nav-link">About us</a>
+            <a href="#about" class="header-nav-link">About us</a>
           </li>
           <li class="header-nav-list">
-            <a href="" class="header-nav-link">Our courses</a>
+            <a href="#courses" class="header-nav-link">Our courses</a>
           </li>
           <li class="header-nav-list">
-            <a href="#" class="header-nav-link">Our mentors</a>
+            <a href="#mentors" class="header-nav-link">Our mentors</a>
           </li>
           <li class="header-nav-list">
-            <a href="#" class="header-nav-link">Reviews</a>
+            <a href="#reviews" class="header-nav-link">Reviews</a>
           </li>
           <li class="header-nav-list">
-            <a href="#" class="header-nav-link">Contacts</a>
+            <a href="#contacts" class="header-nav-link">Contacts</a>
           </li>
         </ul>
       </nav>
     </div>
 
-    <a class="header-link" href="#">Sign up</a>
+    <a class="header-link" href="#sign_up">Sign up</a>
   </div>
 </header>
 
@@ -426,40 +423,68 @@
   </div>
 </section>
 
-    <section class="sign-up container">
-    <div class="test-container">
-        <div class="sign-up__block-form">
-            <div class="sign-up__title title-h3">sign
-                <span>up</span>
-            </div>
-            <p class="sign-up__text text">
-                Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.
-            </p>
-            <form class="sign-up__form" action="/" method="post">
-                <div class="sign-up__input-container">
-                    <label class="sign-up__label visually-hidden" for="name">Enter your name</label>
-                    <input class="sign-up__field input-field" id="name" type="text" placeholder="Enter your name" name="name" pattern="[A-Za-zА-Яа-я]+"/>
-
-                </div>
-                <div class="sign-up__input-container">
-                    <label class="sign-up__label visually-hidden" for="email">Enter your email</label><input class="sign-up__field input-field" id="email" type="email" placeholder="Enter your email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required/>
-                </div>
-                <div class="sign-up__input-container">
-                    <label class="sign-up__label visually-hidden" for="message">Message</label>
-                    <textarea class="sign-up__field input-field" name="message" id="message" placeholder="Message"></textarea>
-                </div>
-                <button class="sign-up__submit btn-signup" type="submit">send</button>
-            </form>
-            <p class="sign-up__policy subtext">
-                By clicking on "Send" button, you agree to our
-                <a href="#" target="_blank">Privacy Policy</a>, and allow Promodo to use this information for marketing purposes.
-            </p>
+    <section class="sign-up container" id="sign_up">
+  <div class="test-container">
+    <div class="sign-up__block-form">
+      <div class="sign-up__title title-h3">
+        sign
+        <span>up</span>
+      </div>
+      <p class="sign-up__text text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="sign-up__form" action="/" method="post">
+        <div class="sign-up__input-container">
+          <label class="sign-up__label visually-hidden" for="name"
+            >Enter your name</label
+          >
+          <input
+            class="sign-up__field input-field"
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+            pattern="[A-Za-zА-Яа-я]+"
+          />
         </div>
-        <div class="sign-up__block-img">
-            <div class="sign-up__lens"></div>
-            <div class="sign-up__camera"></div>
+        <div class="sign-up__input-container">
+          <label class="sign-up__label visually-hidden" for="email"
+            >Enter your email</label
+          ><input
+            class="sign-up__field input-field"
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            required
+          />
         </div>
+        <div class="sign-up__input-container">
+          <label class="sign-up__label visually-hidden" for="message"
+            >Message</label
+          >
+          <textarea
+            class="sign-up__field input-field"
+            name="message"
+            id="message"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <button class="sign-up__submit btn-signup" type="submit">send</button>
+      </form>
+      <p class="sign-up__policy subtext">
+        By clicking on "Send" button, you agree to our
+        <a href="#" target="_blank">Privacy Policy</a>, and allow Promodo to use
+        this information for marketing purposes.
+      </p>
     </div>
+    <div class="sign-up__block-img">
+      <div class="sign-up__lens"></div>
+      <div class="sign-up__camera"></div>
+    </div>
+  </div>
 </section>
 
     <section id="reviews" class="reviews-section">
