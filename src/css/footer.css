@@ -180,21 +180,22 @@ placeholder {
 }
 
 /*Tablet*/
+
+
 @media screen and (min-width: 768px) {
   .footer {
-    background-position: center, calc(50% - 790px) 0, calc(50% + 790px) 0;
+    background-position: center;
+    background-size: cover;
     display: block;
     padding: 50px 32px 25px;
-    background-image: url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png),
-      url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png),
-      url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png);
+    background-image: url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png);
+
   }
 
   @media only screen and (min-resolution: 192dpi) {
     .footer {
-      background-image: url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png),
-        url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png),
-        url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png);
+      background-image: url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png);
+
     }
   }
 
@@ -224,6 +225,26 @@ placeholder {
   .footer-oficials-wrapper {
     margin: 0 auto;
     max-width: 704px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .footer {
+    background-position: center, calc(50% - 790px) 0, calc(50% + 790px) 0;
+    display: block;
+    background-size: contain;
+    padding: 50px 32px 25px;
+    background-image: url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png),
+      url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png),
+      url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png);
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png),
+        url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png),
+        url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png);
+    }
   }
 }
 
