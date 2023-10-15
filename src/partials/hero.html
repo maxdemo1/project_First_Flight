@@ -1,94 +1,143 @@
 <!-- HERO section -->
-<section>
+<section class="hero-section">
   <div class="container hero-container">
-    <h1 class="hero-title">
-      Discover the magic of <span class="logo-accent">photography</span> in our
-      school
-    </h1>
-    <p class="hero-text">
-      Our photography school offers an unforgettable journey, where you can
-      learn the basics of composition, master technical skills, translate your
-      unique ideas.
-    </p>
-    <div class="hero-picture">
-      <div class="hero-img">
-        <div class="hero-image">
-          <picture>
-            <source
-              media="(max-width: 767px)"
-              srcset="
-                ./img/images/hero/students_mobile/happy_studend1_mobile.webp,
-                1x,
-                ./img/images/hero/students_mobile/happy_studend1_2x_mobile.webp 2x
-              "
-            />
-            <img
-              class=""
-              src="./img/images/hero/students_mobile/happy_studend1_mobile.webp"
-              width="44"
-              height="44"
-            />
-          </picture>
-          <picture>
-            <source
-              media="(max-width: 767px)"
-              srcset="
-                ./img/images/hero/students_mobile/happy_studend2_mobile.webp,
-                1x,
-                ./img/images/hero/students_mobile/happy_studend2_2x_mobile.webp 2x
-              "
-            />
-            <img
-              class=""
-              src="./img/images/hero/students_mobile/happy_studend2_mobile.webp"
-              width="44"
-              height="44"
-            />
-          </picture>
-          <picture>
-            <source
-              media="(max-width: 767px)"
-              srcset="
-                ./img/images/hero/students_mobile/happy_studend3_mobile.webp    1x,
-                ./img/images/hero/students_mobile/happy_studend3_2x_mobile.webp 2x
-              "
-            />
-            <img
-              class=""
-              src="./img/images/hero/students_mobile/happy_studend3_mobile.webp"
-              width="44"
-              height="44"
-            />
-          </picture>
-          <div class="svg-container">
-            <svg class="hero-star" width="20" height="20">
-              <use href="./img/icons/sprite.svg#star"></use>
+    <div class="content">
+      <h1 class="hero-title">
+        Discover the magic of <span class="logo-accent">photography</span> in
+        our school
+      </h1>
+
+      <p class="hero-text">
+        Our photography school offers an unforgettable journey, where you can
+        learn the basics of composition, master technical skills, translate your
+        unique ideas.
+      </p>
+
+      <div class="hero-picture">
+        <div class="hero-img">
+          <div class="hero-image">
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/images/hero/students_mobile/happy_studend3_mobile.webp    1x,
+                  ./img/images/hero/students_mobile/happy_studend3_2x_mobile.webp
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/images/hero/students_not_mobile/happy_studend3_1x_not_mobile.webp 1x,
+                  ./img/images/hero/students_not_mobile/happy_studend3_2x_not_mobile.webp 2x
+                "
+              />
+              <img
+                class="picture"
+                src="./img/images/hero/students_mobile/happy_studend3_mobile.webp"
+              />
+            </picture>
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/images/hero/students_mobile/happy_studend2_mobile.webp,
+                  1x,
+                  ./img/images/hero/students_mobile/happy_studend2_2x_mobile.webp 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/images/hero/students_not_mobile/happy_studend2_1x_not_mobile.webp 1x,
+                  ./img/images/hero/students_not_mobile/happy_studend2_2x_not_mobile.webp 2x
+                "
+              />
+              <img
+                class="picture"
+                src="./img/images/hero/students_not_mobile/happy_studend2_1x_not_mobile.webp"
+              />
+            </picture>
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./img/images/hero/students_mobile/happy_studend1_mobile.webp    1x,
+                  ./img/images/hero/students_mobile/happy_studend1_2x_mobile.webp 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/images/hero/students_not_mobile/happy_studend1_1x_not_mobile.webp 1x,
+                  ./img/images/hero/students_not_mobile/happy_studend1_2x_not_mobile.webp 2x
+                "
+              />
+              <img
+                class="picture"
+                src="./img/images/hero/students_mobile/happy_studend1_mobile.webp"
+              />
+            </picture>
+          </div>
+          <div class="arrow">
+            <p class="hero-subtitle">Our happy students</p>
+
+            <svg class="hero-arrow" width="20" height="20">
+              <use href="./img/icons/sprite.svg#arrow-right"></use>
             </svg>
           </div>
         </div>
-        <div class="arrow">
-          <p class="hero-subtitle">Our happy students</p>
-
-          <svg class="hero-arrow" width="20" height="20">
-            <use href="./img/icons/sprite.svg#arrow-right"></use>
+        <div class="svg-container">
+          <svg class="hero-star" width="20" height="20">
+            <use href="./img/icons/sprite.svg#star"></use>
           </svg>
+          <ul class="hero-list">
+            <li>
+              <p class="reviews">Reviews</p>
+              <p class="numb">+1500</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <picture>
-      <source
-        media="(max-width: 767px)"
-        srcset="
-          ./img/images/hero/photographer_mobile/photographer_mobile.webp      1x,
-          ./img/images/hero/photographer_desktop/photographer_2x_desktop.webp 2x
-        "
-      />
-      <img
-        class="photographer-pic"
-        src="./img/images/hero/photographer_mobile/photographer_mobile.webp"
-        width="259"
-        height="314"
-      />
-    </picture>
+    <div class="photographer-pic">
+      <picture>
+        <!-- mob -->
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/images/hero/photographer_mobile/photographer_mobile.webp    1x,
+            ./img/images/hero/photographer_mobile/photographer_2x_mobile.webp 2x
+          "
+        />
+        <!-- Tab -->
+        <source
+          media="(min-width: 768px) and (max-width: 1279px)"
+          srcset="
+            ./img/images/hero/photographer_tablet/photographer_1x_tablet.webp 1x,
+            ./img/images/hero/photographer_tablet/photographer_2x_tablet.webp 2x
+          "
+        />
+        <!-- Desk 1280 -->
+        <source
+          media="(min-width: 1280px) and (max-width: 1439px)"
+          srcset="
+            ./img/images/hero/photographer_desktop/photographer_1x_desktop.webp 1x,
+            ./img/images/hero/photographer_desktop/photographer_2x_desktop.webp 2x
+          "
+        />
+        <!-- Desk 1440 -->
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ./img/images/hero/photographer_desktop/photographer_1x_desktop.webp 1x,
+            ./img/images/hero/photographer_desktop/photographer_2x_desktop.webp 2x
+          "
+        />
+        <img
+          class=""
+          src="./img/images/hero/photographer_mobile/photographer_mobile.webp"
+        />
+      </picture>
+    </div>
   </div>
 </section>

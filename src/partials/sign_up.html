@@ -1,35 +1,63 @@
-<section class="sign-up container">
-    <div class="test-container">
-        <div class="sign-up__block-form">
-            <div class="sign-up__title title-h3">sign
-                <span>up</span>
-            </div>
-            <p class="sign-up__text text">
-                Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.
-            </p>
-            <form class="sign-up__form" action="/" method="post">
-                <div class="sign-up__input-container">
-                    <label class="sign-up__label visually-hidden" for="name">Enter your name</label>
-                    <input class="sign-up__field input-field" id="name" type="text" placeholder="Enter your name" name="name" pattern="[A-Za-zА-Яа-я]+"/>
-
-                </div>
-                <div class="sign-up__input-container">
-                    <label class="sign-up__label visually-hidden" for="email">Enter your email</label><input class="sign-up__field input-field" id="email" type="email" placeholder="Enter your email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required/>
-                </div>
-                <div class="sign-up__input-container">
-                    <label class="sign-up__label visually-hidden" for="message">Message</label>
-                    <textarea class="sign-up__field input-field" name="message" id="message" placeholder="Message"></textarea>
-                </div>
-                <button class="sign-up__submit btn-signup" type="submit">send</button>
-            </form>
-            <p class="sign-up__policy subtext">
-                By clicking on "Send" button, you agree to our
-                <a href="#" target="_blank">Privacy Policy</a>, and allow Promodo to use this information for marketing purposes.
-            </p>
+<section class="sign-up container" id="sign_up">
+  <div class="test-container">
+    <div class="sign-up__block-form">
+      <div class="sign-up__title title-h3">
+        sign
+        <span>up</span>
+      </div>
+      <p class="sign-up__text text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <form class="sign-up__form" action="/" method="post">
+        <div class="sign-up__input-container">
+          <label class="sign-up__label visually-hidden" for="name"
+            >Enter your name</label
+          >
+          <input
+            class="sign-up__field input-field"
+            id="name"
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+            pattern="[A-Za-zА-Яа-я]+"
+          />
         </div>
-        <div class="sign-up__block-img">
-            <div class="sign-up__lens"></div>
-            <div class="sign-up__camera"></div>
+        <div class="sign-up__input-container">
+          <label class="sign-up__label visually-hidden" for="email"
+            >Enter your email</label
+          ><input
+            class="sign-up__field input-field"
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            required
+          />
         </div>
+        <div class="sign-up__input-container">
+          <label class="sign-up__label visually-hidden" for="message"
+            >Message</label
+          >
+          <textarea
+            class="sign-up__field input-field"
+            name="message"
+            id="message"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <button class="sign-up__submit btn-signup" type="submit">send</button>
+      </form>
+      <p class="sign-up__policy subtext">
+        By clicking on "Send" button, you agree to our
+        <a href="#" target="_blank">Privacy Policy</a>, and allow Promodo to use
+        this information for marketing purposes.
+      </p>
     </div>
+    <div class="sign-up__block-img">
+      <div class="sign-up__lens"></div>
+      <div class="sign-up__camera"></div>
+    </div>
+  </div>
 </section>
