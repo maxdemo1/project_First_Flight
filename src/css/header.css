@@ -1,4 +1,5 @@
 .header {
+  min-width: 320px;
   max-width: 375px;
   padding: 20px;
   margin: 0 auto;
@@ -11,6 +12,7 @@
 }
 
 .header-mobile-wrapper {
+  min-width: 295px;
   max-width: 335px;
   width: 100%;
   padding: 9px 20px;
@@ -150,6 +152,7 @@
   .header-mobile-link {
     display: none;
   }
+
   .header {
     max-width: 768px;
     padding: 20px 32px 40px;

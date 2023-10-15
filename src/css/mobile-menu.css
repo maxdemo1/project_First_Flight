@@ -64,7 +64,7 @@
 }
 
 .modal-close-icon {
-  stroke: #121212;
+    stroke: #121212;
 }
 
 @media screen and (min-width: 374px) and (max-width: 767px) {
@@ -97,11 +97,12 @@
     padding: 232px 0 114px 64px;
   }
 }
+
 .modal-link {
-  color: #121212;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+    color: #121212;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .modal-link:hover,
@@ -110,5 +111,5 @@
 }
 
 .modal-list-item:not(:last-child) {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
