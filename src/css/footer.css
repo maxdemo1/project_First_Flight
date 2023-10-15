@@ -1,29 +1,37 @@
 .footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   min-width: 320px;
   max-width: 1440px;
   height: 100%;
   margin: 0 auto;
   padding: 40px 20px 20px;
   background-color: var(--black, #121212);
-  background-image: url(../img/images/header_hero_footer_background/mobile/footer/background_1x_mobile.png);
+  background-image: url(../img/images/header_hero_footer_background/mobile/footer/background_1x_mobile.png),
+    url(../img/images/header_hero_footer_background/mobile/footer/background_1x_mobile.png),
+    url(../img/images/header_hero_footer_background/mobile/footer/background_1x_mobile.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: center, calc(50% - 306px) 0, calc(50% + 306px) 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 @media only screen and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(../img/images/header_hero_footer_background/mobile/footer/background_2x_mobile.png);
+    background-image: url(../img/images/header_hero_footer_background/mobile/footer/background_2x_mobile.png),
+      url(../img/images/header_hero_footer_background/mobile/footer/background_2x_mobile.png),
+      url(../img/images/header_hero_footer_background/mobile/footer/background_2x_mobile.png);
   }
 }
+
 .footer-wrapper {
   min-width: 320px;
   max-width: 375px;
   display: flex;
   flex-direction: column;
 }
+
 .footer-address-wrapper {
   margin-bottom: 40px;
 }
@@ -32,10 +40,12 @@
   margin-bottom: 16px;
   fill: #fff;
 }
+
 .footer-address {
   color: #fff;
   font-family: DM Sans;
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.28;
   display: flex;
@@ -50,12 +60,20 @@
   display: flex;
   flex-direction: row;
 }
-.nav-menu {
+
+.nav-menu-media {
   display: flex;
   flex-direction: column;
   gap: 14px;
   margin-right: 40px;
 }
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 .nav-link {
   color: #fff;
   font-family: DM Sans;
@@ -64,13 +82,16 @@
   line-height: 1.28;
   text-transform: uppercase;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--brown, #bea69e);
 }
+
 .footer-input-wrapper {
   margin-bottom: 40px;
 }
+
 .footer-input {
   width: 267px;
   height: 60px;
@@ -80,12 +101,14 @@
   padding-left: 18px;
   padding-right: 0;
 }
+
 .footer-input:hover {
   outline: none;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
 }
+
 .footer-input:focus {
   outline: none;
   border-radius: 12px;
@@ -93,6 +116,7 @@
   background: transparent;
   color: #fff;
 }
+
 placeholder {
   color: #121212;
   font-family: DM Sans;
@@ -116,6 +140,7 @@ placeholder {
   font-weight: 400;
   line-height: 1.2;
 }
+
 .footer-oficials-wrapper {
   min-width: 320px;
   max-width: 375px;
@@ -123,10 +148,144 @@ placeholder {
   flex-direction: row;
   justify-content: space-between;
 }
+
 .footer-oficials {
   color: #fff;
   font-family: DM Sans;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.33;
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .footer {
+    background-position: center, calc(50% - 313px) 0, calc(50% + 313px) 0;
+    display: block;
+    padding: 50px 32px 25px;
+    background-image: url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png),
+      url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png),
+      url(../img/images/header_hero_footer_background/tablet/footer/background_1x_tablet.png);
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png),
+        url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png),
+        url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png);
+    }
+  }
+
+  .footer-wrapper {
+    margin: 0 auto;
+    min-width: 376px;
+    max-width: 768px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-address-wrapper {
+    margin-right: 58px;
+  }
+  .icon-logo-footer {
+    margin-bottom: 25px;
+    width: 123px;
+    height: 16px;
+  }
+
+  .nav-menu-media {
+    margin-right: 25px;
+  }
+
+  .nav-menu {
+    margin-right: 61px;
+  }
+
+  .footer-input {
+    width: 178px;
+  }
+
+  .footer-oficials-wrapper {
+    margin: 0 auto;
+    min-width: 376px;
+    max-width: 768px;
+  }
+}
+
+/*Desktop:1280*/
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding: 50px 100px 25px;
+    background-image: url(../img/images/header_hero_footer_background/desktop_1280/footer/background_1x_desktop_1280.png);
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/images/header_hero_footer_background/desktop_1280/footer/background_2x_desktop_1440.png);
+    }
+  }
+
+  .footer-wrapper {
+    min-width: 769px;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-nav-wrapper {
+    margin-bottom: 50px;
+  }
+
+  .nav-menu-media {
+    margin-right: 50px;
+    gap: 20px;
+  }
+
+  .nav-menu {
+    gap: 20px;
+  }
+
+  .footer-label {
+    margin-right: 16px;
+  }
+
+  .footer-input {
+    width: 216px;
+  }
+
+  .footer-oficials-wrapper {
+    min-width: 769px;
+    max-width: 1280px;
+  }
+}
+
+/*Desktop:1440*/
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 50px 100px 25px;
+    background-image: url(../img/images/header_hero_footer_background/desktop_1440/footer/background_1x_desktop_1440.png);
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/images/header_hero_footer_background/desktop_1440/footer/background_2x_desktop_1440.png);
+    }
+  }
+
+  .footer-wrapper {
+    min-width: 1281px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-menu-media {
+    margin-right: 100px;
+  }
+
+  .footer-oficials-wrapper {
+    min-width: 1281px;
+    max-width: 1440px;
+  }
 }
