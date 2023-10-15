@@ -21,7 +21,7 @@
 .modal {
     position: absolute;
     background-color: #BEA69E;
-    top:0;
+    top: 0;
     right: 0;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .modal-close-button {
-   
+
     background-color: transparent;
     position: absolute;
     top: 20px;
@@ -113,9 +113,3 @@
 .modal-list-item:not(:last-child) {
     margin-bottom: 20px;
 }
-
-/*.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-}*/
