@@ -346,8 +346,6 @@ placeholder {
   color: inherit;
 }
 
-
-
 .footer-nav {
   flex-grow: 2;
   display: flex;
@@ -356,8 +354,6 @@ placeholder {
   text-transform: uppercase;
   margin-bottom: 75px;
 }
-
-
 
 .footer-nav li {
   margin-bottom: 14px;
