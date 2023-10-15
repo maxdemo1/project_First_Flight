@@ -6,23 +6,24 @@
 }
 
 .modal {
-  position: relative;
-  width: 218px;
-  height: 100%;
-  background-color: #bea69e;
-  top: 0;
-  right: 0;
+
+    position: relative;
+    width: 218px;
+    height: 100%;
+    background-color: #BEA69E;
+    top: 0;
+    right: 0;
 }
 
 .modal-close-button {
-  background-color: transparent;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-style: none;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
 }
 
 .modal-close-icon {
@@ -50,5 +51,5 @@
 }
 
 .link-actual {
-  font-weight: 800;
+    font-weight: 800;
 }
