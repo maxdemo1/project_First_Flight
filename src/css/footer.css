@@ -1,17 +1,17 @@
 .footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid var(--our-courses-border-color);
   min-width: 320px;
-  max-width: 1440px;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
   padding: 40px 20px 20px;
-  background-color: var(--black, #121212);
+  background-color: var(--color-primary-bg);
   background-image: url(../img/images/header_hero_footer_background/mobile/footer/background_1x_mobile.png),
     url(../img/images/header_hero_footer_background/mobile/footer/background_1x_mobile.png),
     url(../img/images/header_hero_footer_background/mobile/footer/background_1x_mobile.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center, calc(50% - 306px) 0, calc(50% + 306px) 0;
+  background-position: center, calc(50% - 345px) 0, calc(50% + 345px) 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +23,13 @@
       url(../img/images/header_hero_footer_background/mobile/footer/background_2x_mobile.png),
       url(../img/images/header_hero_footer_background/mobile/footer/background_2x_mobile.png);
   }
+}
+
+.footer-content-container {
+  width: 100%;
+  max-width: 335px;
+  min-width: 295px;
+  margin: 0 auto;
 }
 
 .footer-wrapper {
@@ -38,12 +45,11 @@
 
 .icon-logo-footer {
   margin-bottom: 16px;
-  fill: #fff;
+  fill: var(--color-primary-text);
 }
 
 .footer-address {
-  color: #fff;
-  font-family: DM Sans;
+  color: var(--color-primary-text);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -53,6 +59,15 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.footer-address-point {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-address-point:hover,
+.footer-address-point:focus {
+  color: var(--color-secondary-title);
 }
 
 .footer-nav-wrapper {
@@ -75,12 +90,13 @@
 }
 
 .nav-link {
-  color: #fff;
-  font-family: DM Sans;
+  display: block;
+  color: var(--color-primary-text);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.28;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -90,6 +106,7 @@
 
 .footer-input-wrapper {
   margin-bottom: 40px;
+  min-width: 295px;
 }
 
 .form-footer {
@@ -98,37 +115,55 @@
 
 .footer-input {
   width: 100%;
-  max-width: 267px;
+  max-width: 230px;
   height: 60px;
   border-radius: 12px;
-  background: #fff;
+  background-color: var(--color-primary-text);
   border: none;
   padding-left: 18px;
   padding-right: 0;
+  color: var(--color-primary-bg);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-input:hover {
-  outline: none;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
+@media screen and (min-width: 375px) {
+  .footer-input-wrapper {
+    min-width: 335px;
+  }
+
+  .footer-input {
+    min-width: 267px;
+  }
+
 }
 
+.footer-input:hover,
 .footer-input:focus {
   outline: none;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  background: transparent;
-  color: #fff;
+  border: 1px solid var(--our-courses-border-color);
+  background-color: var(--color-primary-bg);
+  color: var(--color-primary-text);
 }
 
-placeholder {
-  color: #121212;
-  font-family: DM Sans;
+.footer-input:active {
+  color: var(--color-primary-text);
+  background: var(--color-primary-bg);
+}
+
+.footer-input::placeholder {
+  color: var(--color-primary-bg);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
   opacity: 0.7;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+}
+
+.footer-input:hover::placeholder,
+.footer-input:focus::placeholder {
+  color: var(--color-secondary-text);
 }
 
 .button-footer {
@@ -136,14 +171,21 @@ placeholder {
   width: 60px;
   height: 60px;
   border-radius: 12px;
-  background: #1d1d1d;
+  background-color: var(--color-button-secondary);
   border: none;
-  color: #fff;
+  color: var(--color-primary-text);
   text-align: center;
-  font-family: DM Sans;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-footer:hover,
+.button-footer:focus {
+  background: var(--color-primary-text);
+  color: var(--color-button-secondary);
 }
 
 .footer-oficials-wrapper {
@@ -156,13 +198,12 @@ placeholder {
 
 .footer-oficials {
   color: var(--color-primary-text);
-  font-family: DM Sans;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.33;
 }
 
-@media screen and (max-width: 405px) {
+@media screen and (max-width: 467px) {
   .footer {
     background-image: url(../img/images/header_hero_footer_background/mobile/footer/background_1x_mobile.png);
     background-size: cover;
@@ -192,6 +233,12 @@ placeholder {
 
   }
 
+  .footer-content-container {
+    max-width: 704px;
+  }
+
+
+
   @media only screen and (min-resolution: 192dpi) {
     .footer {
       background-image: url(../img/images/header_hero_footer_background/tablet/footer/background_2x_tablet.png);
@@ -208,17 +255,30 @@ placeholder {
     gap: 58px;
   }
 
+  .footer-address-wrapper {
+    min-width: 142px;
+  }
+
   .icon-logo-footer {
     margin-bottom: 25px;
     width: 123px;
     height: 16px;
   }
 
+  .nav-menu {
+    min-width: 100px;
+  }
+
   .nav-menu-media {
     margin-right: 25px;
   }
 
+  .footer-input-wrapper {
+    min-width: 246px;
+  }
+
   .footer-input {
+    min-width: 178px;
     width: 178px;
   }
 
@@ -230,7 +290,7 @@ placeholder {
 
 @media screen and (min-width: 800px) {
   .footer {
-    background-position: center, calc(50% - 790px) 0, calc(50% + 790px) 0;
+    background-position: center, calc(50% - 765px) 0, calc(50% + 765px) 0;
     display: block;
     background-size: contain;
     padding: 50px 32px 25px;
@@ -253,12 +313,17 @@ placeholder {
   .footer {
     padding: 50px 100px 25px;
     background-image: url(../img/images/header_hero_footer_background/desktop_1280/footer/background_1x_desktop_1280.png);
+    background-size: cover;
   }
 
   @media only screen and (min-resolution: 192dpi) {
     .footer {
       background-image: url(../img/images/header_hero_footer_background/desktop_1280/footer/background_2x_desktop_1440.png);
     }
+  }
+
+  .footer-content-container {
+    max-width: 1080px;
   }
 
   .footer-wrapper {
@@ -314,6 +379,10 @@ placeholder {
     .footer {
       background-image: url(../img/images/header_hero_footer_background/desktop_1440/footer/background_2x_desktop_1440.png);
     }
+  }
+
+  .footer-content-container {
+    max-width: 1240px;
   }
 
   .footer-wrapper {
