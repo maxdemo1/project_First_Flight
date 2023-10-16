@@ -19,6 +19,10 @@
   background-color: var(--color-button-secondary);
 }
 
+.content {
+  padding: 0 20px;
+}
+
 .hero-title {
   text-align: left;
   width: 295px;
@@ -50,6 +54,11 @@
     max-width: 704px;
   }
 
+  .content {
+    padding-left: 32px;
+    padding-right: 0;
+  }
+
   .hero-title {
     width: 517px;
     margin-right: 155px;
@@ -74,6 +83,10 @@
     flex-wrap: nowrap;
     flex-direction: row;
     padding: 0 50px;
+  }
+
+  .content {
+    padding-left: 0px;
   }
 
   .hero-section {
