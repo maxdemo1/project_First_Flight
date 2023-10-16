@@ -78,15 +78,15 @@
     cursor: pointer;
     border-radius: 50%;
     background-color: var(--color-button-secondary);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-courses-svg-container svg {
     fill: transparent;
     stroke: var(--our-courses-right-arrow-color);
-    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        translate 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: stroke 200ms cubic-bezier(0.4, 0, 0.2, 1),
+        translate 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-courses-svg-container:hover,
