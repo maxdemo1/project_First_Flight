@@ -33,6 +33,14 @@
   width: 127px;
   height: 20px;
   fill: var(--color-primary-text);
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-logo:hover .header-logo-mobile,
+.link-logo:focus .header-logo-mobile {
+  fill: var(--color-secondary-title);
+  transform: scale(1.05);
 }
 
 .mobile-header-menu {
@@ -57,7 +65,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   fill: var(--our-courses-item-number);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mobile-link:hover .header-link-icon,
@@ -79,7 +87,7 @@
   width: 32px;
   height: 22px;
   stroke: var(--color-primary-text);
-  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-header:hover .button-header-icon,
@@ -100,7 +108,7 @@
 
 .header-nav-link {
   color: var(--color-primary-text);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-list:hover .header-nav-link,
@@ -126,8 +134,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
