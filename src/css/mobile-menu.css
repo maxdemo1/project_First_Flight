@@ -5,6 +5,7 @@
   width: 100%;
   height: 100%;
   z-index: 1;
+  display: none;
   /* transform: translateX(100%);
     transition: transform 300ms ease-in; */
 }
@@ -64,7 +65,7 @@
 }
 
 .modal-close-icon {
-    stroke: #121212;
+  stroke: #121212;
 }
 
 @media screen and (min-width: 374px) and (max-width: 767px) {
@@ -99,10 +100,10 @@
 }
 
 .modal-link {
-    color: #121212;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+  color: #121212;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .modal-link:hover,
@@ -111,5 +112,5 @@
 }
 
 .modal-list-item:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
