@@ -77,9 +77,6 @@
         margin-bottom: 0;
     }
 
-    .mentors-link {
-        width: calc((100% - 114px)) / 2;
-    }
 }
 
 @media screen and (min-width: 1280px) {
