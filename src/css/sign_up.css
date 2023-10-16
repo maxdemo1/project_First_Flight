@@ -206,6 +206,7 @@ textarea::-webkit-scrollbar-thumb {
 
     .test-container {
         max-width: 768px;
+        padding-left: 32px;
     }
 
     .title-h3 {
@@ -237,6 +238,7 @@ textarea::-webkit-scrollbar-thumb {
 
     .test-container {
         max-width: 1080px;
+        padding-left: 0;
     }
 
     .sign-up__block-img {
@@ -256,4 +258,8 @@ textarea::-webkit-scrollbar-thumb {
     .sign-up__camera {
         width: 350px;
     }
+}
+
+.container {
+    padding: 0;
 }
