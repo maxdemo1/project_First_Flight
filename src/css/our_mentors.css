@@ -34,7 +34,6 @@
 .mentor-naming {
     margin-bottom: 4px;
     text-align: center;
-    font-family: DM Sans;
     font-size: 20px;
     line-height: 1.2;
 }
@@ -42,7 +41,6 @@
 .mentor-info {
     color: var(--color-secondary-text);
     text-align: center;
-    font-family: DM Sans;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.02em;

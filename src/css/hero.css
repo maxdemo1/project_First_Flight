@@ -16,7 +16,7 @@
   min-width: 295px;
   margin: 0 20px;
   border-radius: 30px;
-  background: #1d1d1d;
+  background-color: var(--color-button-secondary);
 }
 
 .hero-title {
@@ -31,8 +31,7 @@
 }
 
 .logo-accent {
-  color: #bea69e;
-  font-family: DM Sans;
+  color: var(--color-secondary-title);
   font-size: 40px;
   font-style: italic;
   font-weight: 400;
@@ -140,7 +139,7 @@
 }
 
 .hero-arrow {
-  fill: #fff;
+  fill: var(--color-primary-text);
 }
 
 .hero-img {
@@ -207,9 +206,8 @@
   align-items: center;
   gap: 24px;
   width: 104px;
-
   padding: 12px;
-  background-color: #bea69e;
+  background-color: var(--color-secondary-title);
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -251,9 +249,9 @@
 
 .hero-star {
   border-radius: 100px;
-  background: #bea69e;
-  fill: #bea69e;
-  stroke: #121212;
+  background-color: var(--color-secondary-title);
+  fill: var(--color-secondary-title);
+  stroke: var(--color-primary-bg);
   flex-shrink: 0;
 }
 
@@ -318,14 +316,11 @@
   .svg-container {
     margin-right: 0;
   }
-
-
 }
 
 @media screen and (min-width: 1440px) {
   .hero-section {
     max-width: 1440px;
-    max-height: 600px;
   }
 
   .hero-container {
