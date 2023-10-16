@@ -149,6 +149,11 @@
     width: 393px;
     height: 434px;
   }
+
+  .photographer-pic picture img {
+    width: 393px;
+    height: 434px;
+  }
 }
 
 .hero-arrow {
@@ -324,6 +329,11 @@
   }
 
   .photographer-pic picture {
+    width: 397px;
+    height: 520px;
+  }
+
+  .photographer-pic picture img {
     width: 397px;
     height: 520px;
   }
