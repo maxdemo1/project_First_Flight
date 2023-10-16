@@ -1,12 +1,15 @@
-<header class="header container">
+<header class="header">
   <div class="header-wrapper">
     <div class="header-mobile-wrapper">
-      <svg class="header-logo">
-        <use href="./img/icons/sprite.svg#logo"></use>
-      </svg>
+      <a class="link-logo" href="#" aria-label="Focus frame">
+        <svg class="header-logo-mobile">
+          <use href="./img/icons/sprite.svg#logo-tablet-desktop"></use>
+        </svg>
+      </a>
+
       <ul class="mobile-header-menu">
         <li class="mobile-header-list">
-          <a class="header-mobile-link" href="">
+          <a class="header-mobile-link" href="#sign_up" aria-label="Sign Up">
             <svg class="header-link-icon" width="16" height="16">
               <use href="./img/icons/sprite.svg#camera"></use>
             </svg>
@@ -14,7 +17,11 @@
         </li>
 
         <li class="mobile-header-list">
-          <button class="button-header" type="button">
+          <button
+            class="button-header js-open-menu"
+            type="button"
+            title="Mobile menu"
+          >
             <svg class="button-header-icon">
               <use href="./img/icons/sprite.svg#nav_button"></use>
             </svg>
@@ -25,24 +32,24 @@
       <nav class="header-nav">
         <ul class="header-nav-item">
           <li class="header-nav-list">
-            <a href="" class="header-nav-link">About us</a>
+            <a href="#about" class="header-nav-link">About us</a>
           </li>
           <li class="header-nav-list">
-            <a href="" class="header-nav-link">Our courses</a>
+            <a href="#courses" class="header-nav-link">Our courses</a>
           </li>
           <li class="header-nav-list">
-            <a href="#" class="header-nav-link">Our mentors</a>
+            <a href="#mentors" class="header-nav-link">Our mentors</a>
           </li>
           <li class="header-nav-list">
-            <a href="#" class="header-nav-link">Reviews</a>
+            <a href="#reviews" class="header-nav-link">Reviews</a>
           </li>
           <li class="header-nav-list">
-            <a href="#" class="header-nav-link">Contacts</a>
+            <a href="#contacts" class="header-nav-link">Contacts</a>
           </li>
         </ul>
       </nav>
     </div>
 
-    <a class="header-link" href="#">Sign up</a>
+    <a class="header-link" href="#sign_up">Sign up</a>
   </div>
 </header>

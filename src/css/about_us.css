@@ -1,9 +1,10 @@
 .abaut_us-section {
     display: flex;
     max-width: 375px;
+    min-width: 320px;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #121212;
+    background-color: var(--color-primary-bg);
     margin: 0 auto;
     margin-bottom: 80px;
     margin-top: 100px;
@@ -13,7 +14,7 @@
 
 .abaut-title {
     margin-bottom: 40px;
-    color: #FFF;
+    color: var(--color-primary-text);
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
@@ -22,7 +23,7 @@
 }
 
 .abaut-title-spn {
-    color: #BEA69E;
+    color: var(--color-secondary-title);
 }
 
 .abaut-list {
@@ -35,7 +36,7 @@
 
 
 .abaut-text {
-    color: var(--white, #FFF);
+    color: var(--color-primary-text);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28;
@@ -54,6 +55,14 @@
 
 /* MEDIA */
 /* TAB */
+@media screen and (max-width: 374px) {
+
+    .abaut_us_picture {
+        width: 295px;
+        height: 183px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .abaut_us-section {
         max-width: 768px;
@@ -75,7 +84,7 @@
     }
 
     .abaut-text {
-        color: #FFF;
+        color: var(--color-primary-text);
         font-size: 16px;
         font-weight: 400;
         line-height: 1.25;
@@ -86,7 +95,7 @@
     }
 
     .abaut-title {
-        color: #FFF;
+        color: var(--color-primary-text);
         font-size: 48px;
         font-weight: 500;
         line-height: 1.125;
@@ -116,7 +125,7 @@
 
     .about_us_conteiner {
         display: flex;
-        min-width: 1280px;
+        max-width: 1080px;
         margin-left: 100px;
 
     }
@@ -143,10 +152,18 @@
     .abaut-item:first-child {
         max-width: 268px;
     }
+
+    .abaut-item:last-child {
+        max-width: 264px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     .abaut_us-section {
+        max-width: 1440px;
+    }
+
+    .about_us_conteiner {
         max-width: 1440px;
     }
 
@@ -163,5 +180,19 @@
         height: 240px;
     }
 
+    .abaut-item:first-child {
+        max-width: 314px;
+    }
 
+    .abaut-item:last-child {
+        max-width: 276px;
+    }
+
+    .abaut-list {
+        gap: 40px;
+    }
+
+    .about_us_conteiner {
+        align-items: center;
+    }
 }

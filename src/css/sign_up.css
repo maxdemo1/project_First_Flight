@@ -30,7 +30,7 @@
 .input-field {
     border-radius: 12px;
     outline: 0;
-    border: 1px solid rgba(255, 255, 255, 0.20);
+    border: 1px solid var(--our-courses-border-color);
     padding: 20px 18px;
     background: transparent;
     font-size: 14px;
@@ -45,7 +45,7 @@
 }
 
 .input-field:focus {
-    border: 1px solid rgba(255, 255, 255, 0.50);
+    border: 1px solid var(--color-secondary-text);
 }
 
 /**
@@ -65,7 +65,7 @@
     font-weight: 700;
     line-height: 1.55;
     text-transform: uppercase;
-    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-signup:hover {
@@ -206,6 +206,7 @@ textarea::-webkit-scrollbar-thumb {
 
     .test-container {
         max-width: 768px;
+        padding-left: 32px;
     }
 
     .title-h3 {
@@ -236,7 +237,8 @@ textarea::-webkit-scrollbar-thumb {
     }
 
     .test-container {
-        max-width: 1280px;
+        max-width: 1080px;
+        padding-left: 0;
     }
 
     .sign-up__block-img {
@@ -250,10 +252,14 @@ textarea::-webkit-scrollbar-thumb {
     }
 
     .test-container {
-        max-width: 1440px;
+        max-width: 1240px;
     }
 
     .sign-up__camera {
         width: 350px;
     }
+}
+
+.container {
+    padding: 0;
 }
