@@ -101,7 +101,7 @@
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--brown, #bea69e);
+  color: var(--color-secondary-title);
 }
 
 .footer-input-wrapper {
