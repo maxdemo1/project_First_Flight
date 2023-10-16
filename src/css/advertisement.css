@@ -13,6 +13,7 @@
 .title-h2 span {
     color: var(--color-secondary-title);
 }
+
 /**
  |============================
  | block style
@@ -66,29 +67,34 @@
         margin-left: -32%;
     }
 }
+
 @media screen and (min-width: 425px) {
     .notice {
         width: 128%;
         margin-left: -28%;
     }
 }
+
 @media screen and (min-width: 768px) {
     .notice {
-        width: 106%;
+        width: 100%;
         margin-left: -6%;
         margin: 0 0 100px 0;
     }
+
     .title-h2 {
         font-size: 40px;
         line-height: 50px;
     }
 }
+
 @media screen and (min-width: 1280px) {
     .notice {
         width: 100%;
         margin-left: 0;
         margin: 0 0 150px 0;
     }
+
     .title-h2 {
         font-size: 59px;
         line-height: 64px;

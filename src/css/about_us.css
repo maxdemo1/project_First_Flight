@@ -125,7 +125,7 @@
 
     .about_us_conteiner {
         display: flex;
-        min-width: 1280px;
+        max-width: 1080px;
         margin-left: 100px;
 
     }
@@ -160,6 +160,10 @@
 
 @media screen and (min-width: 1440px) {
     .abaut_us-section {
+        max-width: 1440px;
+    }
+
+    .about_us_conteiner {
         max-width: 1440px;
     }
 
