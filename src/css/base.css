@@ -138,7 +138,7 @@ body {
             url(../img/images/header_hero_footer_background/tablet/header_and_hero/background_1x_tablet.png),
             url(../img/images/header_hero_footer_background/tablet/header_and_hero/background_1x_tablet.png);
         background-position: center, calc(50% - 773px) 0, calc(50% + 773px) 0;
-        background-size: contain;
+        background-size: cover;
     }
 
     @media only screen and (min-resolution: 192dpi) {
@@ -147,6 +147,12 @@ body {
                 url(../img/images/header_hero_footer_background/tablet/header_and_hero/background_2x_tablet.png),
                 url(../img/images/header_hero_footer_background/tablet/header_and_hero/background_2x_tablet.png);
         }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .header-hero-container {
+        background-size: contain;
     }
 }
 
